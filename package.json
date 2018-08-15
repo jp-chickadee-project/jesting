@@ -1,0 +1,26 @@
+{
+  "name": "jesting",
+  "version": "1.0.0",
+  "description": "Test suite for jpcp_api using the jest framework",
+  "main": "index.js",
+  "dependencies": {
+    "jest": "^23.5.0"
+  },
+  "devDependencies": {
+    "supertest": "^3.1.0"
+  },
+  "scripts": {
+    "test": "jest",
+    "debug": "jest --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jp-chickadee-project/jesting.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jp-chickadee-project/jesting/issues"
+  },
+  "homepage": "https://github.com/jp-chickadee-project/jesting#readme"
+}
