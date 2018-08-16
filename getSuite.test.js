@@ -1,5 +1,6 @@
 
 const supertest = require('supertest')
+import config from './config';
 const serverUrl = "euclid.nmu.edu:9200"
 const request = supertest(serverUrl)
 const path = "/api/birds/0700EE1E5D"
