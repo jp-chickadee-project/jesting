@@ -4,6 +4,7 @@
   "description": "Test suite for jpcp_api using the jest framework",
   "main": "index.js",
   "dependencies": {
+    "config.json": "0.0.4",
     "jest": "^23.5.0"
   },
   "devDependencies": {
