@@ -2,6 +2,8 @@
 
 Api testing for the jpcp using the jest framework
 
+![alt text](https://github.com/jp-chickadee-project/jesting/blob/master/src/logo1.90fadfe.png "JPCP")
+
 # Installation
 
 1) Clone directory
