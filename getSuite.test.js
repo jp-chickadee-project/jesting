@@ -1,19 +1,24 @@
 
 const supertest = require('supertest')
 const config = require('./testConfig.js')
-const serverUrl = "euclid.nmu.edu:9200"
-const request = supertest(serverUrl)
-const path = "/api/birds/0700EE1E5D"
+const request = supertest(config.serverUrl + config.port)
 
 describe("Get Request Suite.", async () => {
-	test("Get Birds", async () => {
-		console.log(config.port)
-		let response = await request.get(path)
+	test("Get bird by rfid", async () => {
+		const getBirdByRfidPath = "/api/birds/0700EE1E5D"
+		let getBirdByRfidResponse = await request.get(getBirdByRfidPath)
 		/* Test */
-		expect(response.status).toEqual(200)
-		expect(response.type).toEqual("application/json")
-		expect(response.body).toHaveProperty("rfid")
-		expect(response.body).toHaveProperty("bandCombo")
+		expect(getBirdByRfidResponse.status).toEqual(200)
+		expect(getBirdByRfidResponse.type).toEqual("application/json")
+		expect(getBirdByRfidResponse.body).toHaveProperty("rfid")
+		expect(getBirdByRfidResponse.body).toHaveProperty("bandCombo")
 		//console.log(response.body)
+	});
+	test("Get all birds", async () => {
+		const getAllBirdsPath = "/api/birds"
+		let getAllBirdsResponse = await request.get(getAllBirdsPath)
+		/* Test */
+		expect(getAllBirdsResponse.status).toEqual(200)
+		expect(getAllBirdsResponse.type).toEqual("application/json")
 	});
 });

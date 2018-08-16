@@ -1,6 +1,2 @@
-const config = {
-	serverUrl: "euclid.nmu.edu:",
-	port: "9200" //refers to the api port
-};
-
-export default config;
+exports.serverUrl = "euclid.nmu.edu:";
+exports.port = "9200"; //refers to the api port
