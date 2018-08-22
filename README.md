@@ -1,8 +1,5 @@
-# combining
-
-### jesting
-
-Api testing for the jpcp using the jest framework
+# Canary
+A RESTful CRUD API for the [JPCP's](https://sites.google.com/view/alecrlindsay/research/jp-chickadee-project "Project Website") [website](jpcp.nmu.edu "Research Website").
 
 ![alt text](https://github.com/jp-chickadee-project/jesting/blob/master/src/logo1.90fadfe.png "JPCP")
 
