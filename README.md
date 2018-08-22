@@ -1,7 +1,14 @@
 # Canary
-A RESTful CRUD API for the [JPCP's](https://sites.google.com/view/alecrlindsay/research/jp-chickadee-project "Project Website") [website](jpcp.nmu.edu "Research Website").
+A RESTful CRUD API for the [JPCP's](https://sites.google.com/view/alecrlindsay/research/jp-chickadee-project "Project Website") website.
 
 ![alt text](https://github.com/jp-chickadee-project/jesting/blob/master/src/logo1.90fadfe.png "JPCP")
+
+### Prereqs
+
+1) [Node.js](https://nodejs.org/en/download/ "Nodejs Official Website")
+2) [npm](https://www.npmjs.com/get-npm "npm Official Website")(should come with Nodejs)
+3) [MySQL](https://www.mysql.com/downloads/ "MySQL Official Website")
+4) The MChickadees.sql file
 
 ### Installation
 
@@ -10,8 +17,9 @@ A RESTful CRUD API for the [JPCP's](https://sites.google.com/view/alecrlindsay/r
 
 ### Configuration
 
-1) Open "testConfig.js"
-2) Change "serverUrl" and "port" to match your system's configuration
+1) Open "config.js"
+..a) Change "serverUrl" and "port" to match your system's configuration
+3) Create 
 
 ### Running
 
