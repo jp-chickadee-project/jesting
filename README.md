@@ -1,31 +1,31 @@
-#combining
+# combining
 
-## jesting
+### jesting
 
 Api testing for the jpcp using the jest framework
 
 ![alt text](https://github.com/jp-chickadee-project/jesting/blob/master/src/logo1.90fadfe.png "JPCP")
 
-## Installation
+### Installation
 
 1) Clone directory
 2) Run npm install
 
-## Configuration
+### Configuration
 
 1) Open "testConfig.js"
 2) Change "serverUrl" and "port" to match your system's configuration
 
-## Running
+### Running
 
 npm test or npm debug
 //npm debug outputs additional debugging information
 
-## Progress
+### Progress
 
 **Bolded** text in "Tested By" signifies that it's done
 
-### Feeders
+##### Feeders
 
 
 | Interaction   | Verb   | Endpoint                                                | Returns                                  | Tested By
@@ -36,7 +36,7 @@ npm test or npm debug
 | Update by ID  | PUT    | /api/feeders/{feederID}                                 | The updated feeder                       | updateFeeder
 | Delete by ID  | DELETE | /api/feeders/{feederID}                                 | The empty object {}                      | deleteFeeder
 
-### Birds
+##### Birds
 
 | Interaction   | Verb   | Endpoint                                                | Returns                                  | Tested By              
 |---------------|--------|---------------------------------------------------------|------------------------------------------|------------------------
@@ -47,7 +47,7 @@ npm test or npm debug
 | Delete by ID  | DELETE | /api/birds/{rfid}                                       | The empty object {}                      | deleteBirdByRfid
 | Bird Options  | GET    | /api/birds/options                                      | List of bird options                     | getBirdOptions
 
-### Visits
+##### Visits
 
 | Interaction   | Verb   | Endpoint           | Returns                        | Parameters                   | Tested By
 |---------------|--------|--------------------|--------------------------------|------------------------------|----------------------
