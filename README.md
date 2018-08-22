@@ -17,8 +17,8 @@ A RESTful CRUD API for the [JPCP's](https://sites.google.com/view/alecrlindsay/r
 
 ### Configuration
 
-1) Open "config.js"
- i) Change "serverUrl" and "port" to match your system's configuration
+1. Open "config.js"
+    1. Change "serverUrl" and "port" to match your system's configuration
 3) Create 
 
 ### Running
