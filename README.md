@@ -26,7 +26,7 @@ A RESTful CRUD API for the [JPCP's](https://sites.google.com/view/alecrlindsay/r
 
 ### Running
 
-Run `npm run start` in project directory
+Run `npm run ****` in project directory
 
 ### Testing
 
