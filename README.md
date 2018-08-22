@@ -1,5 +1,5 @@
 # Canary
-A RESTful CRUD API for the [JPCP's](https://sites.google.com/view/alecrlindsay/research/jp-chickadee-project "Project Website") website.
+A RESTful CRUD API for the [JPCP's](https://sites.google.com/view/alecrlindsay/research/jp-chickadee-project "Project Website") public portal website.
 
 ![alt text](https://github.com/jp-chickadee-project/jesting/blob/master/src/logo1.90fadfe.png "JPCP")
 
@@ -13,18 +13,24 @@ A RESTful CRUD API for the [JPCP's](https://sites.google.com/view/alecrlindsay/r
 ### Installation
 
 1) Clone directory
-2) Run npm install
+2) Run `npm install`
 
 ### Configuration
 
-1. Open "config.js"
-    1. Change "serverUrl" and "port" to match your system's configuration
-3) Create 
+1. In MySQL
+    1. Create a USER and DATABASE
+2. Load MChickadees.sql into MySQL via the command line
+    1. `mysql -u USER -p DATABASE < /path/to/MChickadees.sql` (Make sure you're in the same directory as MChickadees.sql)
+3. Open "config.js"
+    1. Change "serverUrl", "port", "database", "mysqlUser", and "mysqlPass" to match your system's configuration
 
 ### Running
 
-npm test or npm debug
-//npm debug outputs additional debugging information
+Run `npm run start` in project directory
+
+### Testing
+
+Test the API by running `npm test` or `npm debug`.
 
 ### Progress
 
